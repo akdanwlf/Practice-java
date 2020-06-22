@@ -7,6 +7,7 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         String input = scanner.nextLine().toLowerCase();
+        scanner.close();
         int size = input.length();
         
         for (int i = 0; i < size; i++) {
@@ -22,6 +23,6 @@ class Main {
         
         System.out.println(-1);
         
-        scanner.close();
+        
     }
 }
