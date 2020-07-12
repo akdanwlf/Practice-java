@@ -15,7 +15,7 @@ class Main {
     }
 
     protected static int findMaxInFile(final File file) {
-
+    // this function returns max integer in the input file
         int maxNum = 0;
         try {
             final Scanner scanner = new Scanner(file);
